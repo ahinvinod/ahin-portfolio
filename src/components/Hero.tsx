@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Github, Linkedin, Phone } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -10,7 +11,7 @@ const Hero = () => {
     <header className="text-center py-16 px-5 text-white animate-fade-in">
       <div className="w-72 h-72 mx-auto mb-6 rounded-full border-4 border-white overflow-hidden shadow-2xl">
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+          src={profilePhoto}
           alt="Ahin Vinod"
           className="w-full h-full object-cover"
         />

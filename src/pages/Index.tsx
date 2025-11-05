@@ -4,6 +4,8 @@ import SkillCard from "@/components/SkillCard";
 import ProjectCard from "@/components/ProjectCard";
 import CertificateCard from "@/components/CertificateCard";
 import { Mail, Linkedin, Github, Phone } from "lucide-react";
+import cert1 from "@/assets/cert1.jpg";
+import cert2 from "@/assets/cert2.png";
 
 const Index = () => {
   return (
@@ -69,13 +71,13 @@ const Index = () => {
               title="Web-development using JavaScript"
               issuer="Chetana's Institute of Management and Research"
               date="May 2024"
-              image="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
+              image={cert1}
             />
             <CertificateCard
               title="Data Science Internship & Training Program"
               issuer="INNOKNOWVEX"
               date="Ongoing"
-              image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+              image={cert2}
             />
           </div>
         </Section>
