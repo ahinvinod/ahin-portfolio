@@ -34,6 +34,14 @@ const Index = () => {
           </div>
         </Section>
 
+        <Section title="Soft Skills">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <SkillCard title="Team Player" skills="Collaborative mindset, supportive team member" />
+            <SkillCard title="Observation" skills="Detail-oriented, analytical thinking" />
+            <SkillCard title="Active Listening" skills="Attentive communication, understanding needs" />
+          </div>
+        </Section>
+
         <Section id="projects" title="Featured Projects">
           <ProjectCard
             title="Smart Plant Monitoring System"
